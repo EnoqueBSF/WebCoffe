@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #fffff0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.home {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    background-image: url('../../assets/img/coffee02.png');
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.home .conteudo {
+    display: flex;
+    height: 30%;
+    background-color: #000;
+}
+
+.cima {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%
+}
+
+.conteudo {
+    width: 100%;
+    height: 100%;
+}
+
+.apresentacao {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.apresentacao p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #40160C;
+}
+
+.nav a {
+    color: #FFF;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo a img {
+    height: 80%;
+}
+
+.escopo {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.escopo .conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.escopo .conteudo .card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 25%;
+    max-width: 250px;
+    height: 300px;
+    background-color: antiquewhite;
+    margin: 20px 0px 20px;
+    justify-content: center;
+}
+
+.card .card-head {
+    display: flex;
+    justify-content: center;
+}
+
+.card .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 10px 10px;
+    text-align: center;
+}
+
+.card .card-body p {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
